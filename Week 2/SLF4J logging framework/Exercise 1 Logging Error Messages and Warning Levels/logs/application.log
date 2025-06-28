@@ -1,0 +1,8 @@
+2025-06-28 23:45:38.244 [com.cognizent.fse.LoggingExample.main()] ERROR com.cognizent.fse.LoggingExample - This is an error message
+2025-06-28 23:45:38.244 [com.cognizent.fse.LoggingExample.main()] WARN  com.cognizent.fse.LoggingExample - This is a warning message
+2025-06-28 23:45:38.244 [com.cognizent.fse.LoggingExample.main()] ERROR com.cognizent.fse.LoggingExample - Failed to connect to database: Connection timeout after 30 seconds
+2025-06-28 23:45:38.244 [com.cognizent.fse.LoggingExample.main()] WARN  com.cognizent.fse.LoggingExample - File 'config.properties' not found. Using default configuration.
+2025-06-28 23:45:38.244 [com.cognizent.fse.LoggingExample.main()] WARN  com.cognizent.fse.LoggingExample - Method execution took longer than expected: 5.2 seconds
+2025-06-28 23:45:38.244 [com.cognizent.fse.LoggingExample.main()] ERROR com.cognizent.fse.LoggingExample - Out of memory error: Unable to allocate 512 MB
+2025-06-28 23:45:38.250 [com.cognizent.fse.LoggingExample.main()] WARN  com.cognizent.fse.LoggingExample - Deprecated configuration parameter 'old.setting' found. Please use 'new.setting' instead.
+2025-06-28 23:45:38.250 [com.cognizent.fse.LoggingExample.main()] ERROR com.cognizent.fse.LoggingExample - Failed to process file 'invalid-file.txt': File does not exist
