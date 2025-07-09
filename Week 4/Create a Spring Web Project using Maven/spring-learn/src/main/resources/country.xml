@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util
+       http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!-- Bean configuration for Country class -->
+    <bean id="country" class="com.cognizant.spring_learn.Country">
+        <property name="code" value="IN" />
+        <property name="name" value="India" />
+    </bean>
+
+    <!-- Country list configuration -->
+    <util:list id="countryList" value-type="com.cognizant.spring_learn.Country">
+        <bean class="com.cognizant.spring_learn.Country">
+            <property name="code" value="US" />
+            <property name="name" value="United States" />
+        </bean>
+        <bean class="com.cognizant.spring_learn.Country">
+            <property name="code" value="DE" />
+            <property name="name" value="Germany" />
+        </bean>
+        <bean class="com.cognizant.spring_learn.Country">
+            <property name="code" value="IN" />
+            <property name="name" value="India" />
+        </bean>
+        <bean class="com.cognizant.spring_learn.Country">
+            <property name="code" value="JP" />
+            <property name="name" value="Japan" />
+        </bean>
+    </util:list>
+
+</beans>
