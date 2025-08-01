@@ -1,0 +1,59 @@
+.App {
+  text-align: left;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  flex: 1;
+  border-left: 4px solid #28a745;
+  padding-left: 15px;
+  min-height: 300px;
+}
+
+.section h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.section h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.section h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.section h4 {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #666;
+}
+
+.section p {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #666;
+}
+
+.section div {
+  margin: 10px 0;
+}
+
+.section strong {
+  font-weight: bold;
+  font-size: 16px;
+}

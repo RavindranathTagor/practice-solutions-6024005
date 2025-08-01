@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.office-item {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.office-item img {
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.office-item h1 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.office-item h3 {
+  margin: 10px 0;
+  color: #666;
+}
